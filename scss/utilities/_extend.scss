@@ -1,0 +1,6 @@
+// Mixin para el estilo de los títulos
+@mixin title-style($color, $size) {
+    color: $color;
+    font-size: $size;
+    margin-bottom: 20px;
+  }

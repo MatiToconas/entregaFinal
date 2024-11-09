@@ -1,0 +1,15 @@
+// Estilos del header
+header {
+    background-color: $dark-color;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  
+    h1 {
+      @include title-style(white, 2.5rem);
+    }
+  
+    p {
+      font-size: 1.2rem;
+    }
+  }

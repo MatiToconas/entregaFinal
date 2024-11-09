@@ -1,0 +1,38 @@
+// Estilos del main y las secciones
+@import "../utilities/mixins";
+main {
+    section {
+      margin-bottom: 50px;
+  
+      h2 {
+        @include title-style($dark-color, 2rem);
+      }
+  
+      p {
+        font-size: 1rem;
+        color: $dark-color;
+      }
+    }
+  
+    // Tarjetas de servicios
+    .card {
+      border: 1px solid #ddd;
+      transition: transform 0.3s ease;
+  
+      &:hover {
+        transform: translateY(-10px);
+      }
+  
+      img {
+        border-bottom: 1px solid #ddd;
+      }
+  
+      .card-title {
+        font-size: 1.5rem;
+      }
+  
+      .card-text {
+        font-size: 1rem;
+      }
+    }
+  }

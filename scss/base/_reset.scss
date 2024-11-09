@@ -1,0 +1,41 @@
+@import "../utilities/variables";
+// Estilos globales
+body {
+    font-family: $font-family;
+    background-color: $light-color;
+  }
+    
+  // Estilos de la navegación
+  nav {
+    background-color: $light-color;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  
+      li {
+        display: inline;
+        margin: 0 10px;
+  
+        a {
+          text-decoration: none;
+          color: $dark-color;
+  
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+   
+  // Estilos del footer
+  footer {
+    background-color: $dark-color;
+    color: white;
+    padding: 20px;
+  
+    p {
+      margin: 0;
+    }
+  }
